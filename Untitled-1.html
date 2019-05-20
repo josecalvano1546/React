@@ -1,0 +1,28 @@
+<html >
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<form id="formEjemplo">
+	 <input type="text" placeholder="Nombre...">
+	 <input type="text" placeholder="Edad...">
+	 <input type="text" placeholder="Email...">
+	 <select>
+	 	<option value="0">Seleccionar...</option>
+	 	<option value="0">Mexico</option>
+	 	<option value="0">Estados Unidos</option>
+	 </select>
+	 <label>Sexo:</label>
+	 <input type="radio" name="sexo">M
+	 <input type="radio" name="sexo">F
+	 <button type="button" id="btnLimpiar">Limpiar</button>
+</form>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+<script>
+   $("#btnLimpiar").click(function(event) {
+	   $("#formEjemplo")[0].reset();
+   });
+</script>
+</body>
+</html>

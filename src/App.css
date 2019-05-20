@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  color:  #1639d7;
+
+}
+nav {
+  background: #85ef47;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+strong{
+  color: #ffc107;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

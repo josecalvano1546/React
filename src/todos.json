@@ -1,0 +1,40 @@
+{
+
+	"todos":[
+{
+
+	"title" : "tarea 1",
+	"esponsible": " Mark",
+	"description": "Lorem impsunt",
+	"prioriti": "low"
+	},
+{
+
+	"title" : "tarea 2",
+	"esponsible": " Raian",
+	"description": "Lorem impsunt",
+	"prioriti": "medium"
+	},
+{
+
+	"title" : "tarea 3",
+	"esponsible": " Jose",
+	"description": "Lorem impsunt",
+	"prioriti": "high "
+},
+{
+
+	"title" : "tarea 4",
+	"esponsible": " Josefina",
+	"description": "Lorem impsunt",
+	"prioriti": "high "
+},
+{
+
+	"title" : "tarea 5",
+	"esponsible": " Josefina2",
+	"description": "Lorem impsunt",
+	"prioriti": "high "
+	}
+]
+}
